@@ -4,7 +4,7 @@ defmodule Samplephoenix.Mixfile do
   def project do
     [ app: :samplephoenix,
       version: "0.0.1",
-      elixir: "~> 0.15.0",
+      elixir: "~> 1.0.0",
       elixirc_paths: ["lib", "web"],
       deps: deps ]
   end
@@ -24,7 +24,7 @@ defmodule Samplephoenix.Mixfile do
   # { :barbat, "~> 0.1", github: "elixir-lang/barbat" }
   defp deps do
     [
-      {:phoenix, github: "phoenixframework/phoenix"},
+      {:phoenix, "~> 0.4.1"},
       {:cowboy, "~> 1.0.0"}
     ]
   end
